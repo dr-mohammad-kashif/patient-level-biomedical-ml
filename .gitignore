@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local environment
+.env
+.env.*
+
+# Data — source data should be downloaded locally, not committed
+/data/raw/*
+!/data/raw/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+
+# Generated outputs
+*.log
+.DS_Store
+Thumbs.db
